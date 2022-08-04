@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/Novo Projeto.png">
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/slider.js" defer></script>
+    
+    <title>Teck World</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <i class="fas fa-bars barra-de-menu"></i>
+
+        <ul class="cabecalho__menu">
+            <li class="menu-item"><a href="#">Início</a></li>
+            <li class="menu-item"><a href="#">Sobre</a></li>
+            <li class="menu-item"><a href="#">Serviços</a></li>
+            <li class="menu-item"><a href="#">Contatos</a></li>
+        </ul>
+
+        <a href="https://api.whatsapp.com/send/?phone=%2B5584991951917&text=Olá. Gostaria de saber mais sobre os serviços da empresa" target="_blank" class="cabecalho__link whatsapp">Nosso WhatsApp</a>
+    </header>
+    
+    <section id="inicio" class="inicio">
+        <div class="inicio__texto">
+            <h2>Conquiste novos clientes e aumente suas vendas</h2>
+
+            <p>
+                Temos assessoria de Marketing Digital cimpleta para sua empresa
+                conquistar clientes e vender mais todos os dias.
+            </p>
+
+            <a href="" class="inicio__link whatsapp">Agendar Consultoria Gratuita</a>
+        </div>
+    </section>
+
+    <section class="parallax"></section>
+
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+
+        <div class="servicos__oferecidos">
+            
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="img/servicos/social-media.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/servicos/redes-sociais.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/servicos/logomarcas.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/servicos/programacao.png" alt=""></div>
+                  <div class="swiper-slide"><img src="img/servicos/fotografia.png" alt=""></div>
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+              </div>
+
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,10 @@
+:root {
+
+--lilas: #1C182F;
+--azul: #001B41;
+--roxo: #4E1945;
+--branco: white;
+--preto: black;
+
+
+}
