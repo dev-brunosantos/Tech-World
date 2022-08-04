@@ -12,11 +12,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 32px;
+    margin: 20px 0;
 }
 .swiper {
     width: 90vw;
     height: 250px;
-    margin: 20px 0;
 }
 .swiper-slide {
     display: flex;
