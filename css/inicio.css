@@ -29,9 +29,9 @@
     color: var(--branco);
 }
 .parallax {
-    width: 100%;
+    width: 100vw;
     height: 30%;
     background: url("../img/logo-preta.jpg") no-repeat center fixed;
     background-color: var(--preto);
-    background-size: cover;
+    background-size: contain;
 }
