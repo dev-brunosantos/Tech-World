@@ -18,7 +18,6 @@
     overflow: hidden;
     width: 100%;
     height: 0;
-    border: 1px solid var(--roxo);
     position: absolute;
     top: 100%;
     background-color: var(--branco);
@@ -31,6 +30,7 @@
     transition: 0.3s;
     height: 50vh;
     background-color: var(--roxo);
+    border: 1px solid var(--roxo);
     color: var(--branco);
 }
 .abrir-menu .menu-item a {

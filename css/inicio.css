@@ -1,7 +1,6 @@
 .inicio {
     width: 100%;
     height: 55%;
-    border-bottom: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +28,9 @@
     color: var(--branco);
 }
 .parallax {
+    margin: 0 auto;
     width: 100vw;
-    height: 30%;
-    background: url("../img/logo-preta.jpg") no-repeat center fixed;
-    background-color: var(--preto);
+    height: 25%;
+    background: url("../img/logo-branca.jpg") no-repeat center fixed;
     background-size: contain;
 }

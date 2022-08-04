@@ -8,8 +8,8 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
         delay: 2500,
     },
-//     effect: 'cube',
-//     cubeEffect: {
-//     slideShadows: true,
-//   },
+    effect: 'cube',
+    cubeEffect: {
+        slideShadows: true,
+    },
 });
