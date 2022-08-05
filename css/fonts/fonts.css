@@ -131,7 +131,14 @@
   content: "\f87c"; 
   
 }
+  /* Notebook Code */
 
+.fa-laptop-code::before {
+  content: "\f5fc";
+}
+.fa-laptop-mobile::before {
+  content: "\f87a";
+}
 .teste {
   color: var(--branco);
   font-size: 50px;
