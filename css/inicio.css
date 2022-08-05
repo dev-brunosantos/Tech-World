@@ -35,7 +35,7 @@
     height: 25%;
     background: url("../img/logo-branca.jpg") no-repeat center fixed;
     background-size: contain;
-    animation: aparecer 2s linear infinite;
+    animation: aparecer 5s linear infinite;
 }
 @keyframes aparecer {
   from {
