@@ -1,8 +1,10 @@
 .barra-de-menu {
     background: var(--laranja);
+    /*
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+     */
     font-size: 40px;
     position: absolute;
     top: 10%;
