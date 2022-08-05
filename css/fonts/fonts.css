@@ -127,18 +127,14 @@
   
 }
   /* FOTOGRAFIA */
-.fa-photo-film::before {
-  content: "\f87c"; 
-  
-}
+  .fa-camera-retro::before {
+  content: "\f083";
+  }
   /* Notebook Code */
 
 .fa-laptop-code::before {
-  content: "\f5fc";
-}
-.fa-laptop-mobile::before {
-  content: "\f87a";
-}
+ 
+ 
 .teste {
   color: var(--branco);
   font-size: 50px;
