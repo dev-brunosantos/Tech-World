@@ -126,3 +126,8 @@
   content: "\f390"; 
   
 }
+
+.teste {
+  color: var(--branco);
+  font-size: 30px;
+}
