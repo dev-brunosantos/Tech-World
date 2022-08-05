@@ -126,6 +126,11 @@
   content: "\f390"; 
   
 }
+  /* FOTOGRAFIA */
+.fa-photo-film::before {
+  content: "\f87c"; 
+  
+}
 
 .teste {
   color: var(--branco);
