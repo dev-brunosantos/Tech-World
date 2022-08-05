@@ -1,6 +1,7 @@
 .barra-de-menu {
-    background: var(--laranja);
+    color: var(--laranja);
     /*
+    background: var(--laranja);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
