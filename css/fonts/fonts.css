@@ -121,3 +121,8 @@
   .fa-angles-up::before {
     content: "\f102"; 
   }
+  /* COMPUTADOR */
+.fa-computer-mouse::before {
+  content: "\f8cc"; 
+  
+}
