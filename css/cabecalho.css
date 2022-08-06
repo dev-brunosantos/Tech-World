@@ -11,7 +11,7 @@
     z-index: 999;
 }
 .cabecalho__link {
-    background-image: linear-gradient(65);
+    background-color: var(--laranja);
     color: var(--branco);
     font-size: 20px;
 }
