@@ -30,8 +30,11 @@ body {
 .cabecalho {
     width: 100%;
     height: 40%;
+    /*
     background: url(../img/logo-branca.jpg) no-repeat center;
     background-size: 95% auto;
+    */
+    background-image: linear-gradient(to bottom, var(--branco), var(--roxo));
     display: flex;
     justify-content: center;
     align-items: flex-end;
