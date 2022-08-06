@@ -14,8 +14,6 @@ for(var i=0; i<linkMenu.length; i++) {
     linkMenu[i].addEventListener('click', function() {
         // event.preventDefault();
 
-        console.log("Funcinou")
-
         menuPrincipal.classList.remove('abrir-menu');
 
         
