@@ -1,6 +1,7 @@
 @import url("../css/cabecalho.css");
 @import url("../css/inicio.css");
 @import url("../css/servicos.css");
+@import url("../css/sobre.css");
 
 :root {
     --branco: #fff;
@@ -30,16 +31,13 @@ body {
 .cabecalho {
     width: 100%;
     height: 40%;
-    /*
     background: url(../img/logo-branca.jpg) no-repeat center;
     background-size: 95% auto;
-    */
-    background-image: linear-gradient(to bottom, var(--branco) 90%, var(--roxo));
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     position: relative;
+    z-index: 999;
 }
 .whatsapp {
     border: solid;
@@ -60,11 +58,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--degrade);
+  background-color: var(--roxo);
+  /* background-image:linear-gradient(to bottom, var(--branco), var(--roxo), var(--rosa-claro)); */
 }
 
 video {
-  width: 500px;
+  width: 100%;
   height: 90%;
   border-radius: 20px;
+}
+
+/* MUDANÇA DE TELAS */
+
+.aparecer {
+    animation: aparecer 1s linear;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
