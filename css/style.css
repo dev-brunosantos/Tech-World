@@ -34,8 +34,9 @@ body {
     background: url(../img/logo-branca.jpg) no-repeat center;
     background-size: 95% auto;
     */
-    background-image: linear-gradient(to bottom, var(--branco), var(--roxo));
+    background-image: linear-gradient(to bottom, var(--branco) 90%, var(--roxo));
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     position: relative;
