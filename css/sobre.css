@@ -22,3 +22,18 @@
     text-shadow: 1px 0px var(--rosa-claro);
     line-height: 30px;
 }
+
+@media screen and (min-width: 900px) {
+    .sobre {
+        grid-area: sobre;
+        width: 100%;
+        background-color: var(--roxo);
+    }
+    
+    .sobre__imagem {
+        height: 30%;
+        margin-top: 20px;
+        border-radius: 100%;
+        background-color: white;
+    }
+}

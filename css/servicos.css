@@ -35,3 +35,14 @@
     border-radius: 20px;
     box-shadow: 0px 2px 30px var(--rosa-escuro);
 }
+
+@media screen and (min-width: 900px) {
+    .servicos {
+        width: 100%;
+        grid-area: servicos;
+    }
+    .swiper {
+        width: 40vw;
+        height: 250px;
+    }
+}
