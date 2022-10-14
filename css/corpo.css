@@ -1,0 +1,91 @@
+@import url('./cards.css');
+
+.telas {
+    width: 100%;
+    border: none;
+}
+
+/* PRIMEIRA TELA */
+.propaganda-slider {
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-image: linear-gradient(to bottom, var(--branco) 30%, var(--roxo)); */
+}
+
+.swiper, .swiper-wrapper {
+    width: 100%;
+    height: 80%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 90%;
+    height: 95%;
+    border: 1px solid var(--roxo);
+    border-radius: 20px;
+    
+    box-shadow: 0px 0px 10px var(--rosa-escuro);
+}
+
+/* SEGUNDA TELA */
+.sobre {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--roxo);
+}
+
+.sobre-texto {
+    /* background: var(--rosa-escuro); */
+    background: var(--branco);
+    width: 85%;
+    height: 80%;
+    border: 5px double var(--rosa-escuro);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* color: var(--branco); */
+    color: var(--rosa-escuro);
+}
+
+.sobre-texto p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    /* text-shadow: 1px 0px var(--preto); */
+}
+
+/* PARALLAX */
+.parallax {
+    height: 70vh;
+    background: url('../img/logo-branca.jpg') no-repeat center fixed;
+    background-size: contain;
+}
+
+.parallax-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--roxo);
+    background-image: linear-gradient(to bottom, var(--roxo), transparent 20% 85%);
+}
+
+/* RODAPÉ */
+.contatos-redes {
+    color: var(--branco);
+    font-size: 40px;
+    text-decoration: none;
+}
