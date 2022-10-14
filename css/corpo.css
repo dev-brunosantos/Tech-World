@@ -11,9 +11,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center; 
     /* background-image: linear-gradient(to bottom, var(--branco) 30%, var(--roxo)); */
+}
+
+.swiper {
+    margin-bottom: 30px;
 }
 
 .swiper, .swiper-wrapper {
@@ -44,7 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--roxo);
+    /* background-color: var(--roxo); */
 }
 
 .sobre-texto {
