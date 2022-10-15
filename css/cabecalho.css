@@ -41,6 +41,7 @@
 .linhas {
     width: 100%;
     height: 5px;
+    border-radius: 10px;
     background-color: var(--rosa-escuro); 
     transition: .3s;
     transform: rotate(180deg);
