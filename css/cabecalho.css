@@ -84,7 +84,7 @@
 
 .abrir-menu {
     transition: .3s;
-    height: 80vh;
+    height: 60vh;
     opacity: 1;
     left: 0;
 }
