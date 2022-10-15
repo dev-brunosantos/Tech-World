@@ -17,10 +17,12 @@
 }
 
 .swiper {
+    width: 100%;
+    height: 90%;
     margin-bottom: 30px;
 }
 
-.swiper, .swiper-wrapper {
+.swiper-wrapper {
     width: 100%;
     height: 80%;
 }
