@@ -63,6 +63,15 @@ body {
     box-shadow: 1px 5px 20px var(--roxo);
 }
 
+.contato {
+    position: absolute;
+    top: 93.5%;
+}
+
+em {
+    font-weight: bold;
+}
+
 .rodape {
     width: 100%;
     height: 50px;
