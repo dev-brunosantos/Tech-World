@@ -22,7 +22,7 @@
   <header class="cabecalho">
     <div class="cabecalho-logomarca">
       <a href="#" class="logo">
-        <!-- <img src="img/logo-branca.jpg" alt="Imagem da Logomarca da empresa Tech World"> -->
+        <img src="img/logo-branca.jpg" alt="Imagem da Logomarca da empresa Tech World">
       </a>
     </div>
 
@@ -33,9 +33,9 @@
             <img src="img/logo-branca.jpg" alt="">
           </li>
           <li class="menu-itens"><a href="#">Inicio</a></li>
-          <li class="menu-itens"><a href="#">Sobre</a></li>
-          <li class="menu-itens"><a href="#">Serviços</a></li>
-          <li class="menu-itens"><a href="#">Contatos</a></li>
+          <li class="menu-itens"><a href="#sobre">Sobre</a></li>
+          <li class="menu-itens"><a href="#servicos">Serviços</a></li>
+          <li class="menu-itens"><a href="#contatos">Contatos</a></li>
         </ul>
       </nav>
     </div>
@@ -51,7 +51,7 @@
 
   <main class="corpo">
     <!-- PRIMEIRA TELA -->
-    <section class="propaganda-slider telas">
+    <section id="inicio" class="propaganda-slider telas">
 
       <!-- Slider main container -->
       <div class="swiper">
@@ -91,7 +91,7 @@
 
     </section>
 
-    <section class="sobre telas">
+    <section id="sobre" class="sobre telas">
       <div class="sobre-texto">
         <p>  
           A Tech World foi criada com o intuito de ajudar
@@ -115,13 +115,13 @@
       <div class="parallax-container"></div>
     </section>
 
-    <section class="servicos telas">
+    <section id="servicos" class="servicos telas">
       <h1 class="nossos-servicos">Nossos Serviços</h1>
 
       <div class="cards">
 
         <!-- MARKETING -->
-        <div class="card cartoes">
+        <div class="card cartoes marketing">
           <div class="card-body">
             <h2 class="card-title">Conquiste novos clientes e aumente suas vendas</h2>
             <h6 class="card-subtitle mb-2">
@@ -135,7 +135,7 @@
         </div>
 
         <!-- SITES E LANDING PAGES -->
-        <div class="card cartoes">
+        <div class="card cartoes programacao">
           <div class="card-body">
             <h2 class="card-title">Sites e Landing Pages</h2>
             <h6 class="card-subtitle mb-2">
@@ -150,8 +150,8 @@
           </div>
         </div>
 
-        <!-- SITES E LANDING PAGES -->
-        <div class="card cartoes">
+        <!-- IDENTIDADE VISUAL -->
+        <div class="card cartoes logomarcas">
           <div class="card-body">
             <h2 class="card-title">Identidade Visual</h5>
             <h6 class="card-subtitle mb-2">
@@ -167,8 +167,8 @@
           </div>
         </div>
 
-        <!-- SITES E LANDING PAGES -->
-        <div class="card cartoes">
+        <!-- FOTOGRAFIAS -->
+        <div class="card cartoes fotografia">
           <div class="card-body">
             <h2 class="card-title">Fotografia</h2>
             <h6 class="card-subtitle mb-2">
@@ -190,19 +190,38 @@
     </section>
 
     
-  <footer class="rodape">
-    <a href="https://api.whatsapp.com/send/?phone=%2B5584991951917&text=Olá. Gostaria de saber mais sobre os serviços da empresa" class="contatos-redes">
-      <i class="fab fa-whatsapp contatos-icones"></i>
-    </a>
+    <footer id="contatos" class="rodape">
+      <div class="redes">
+        <a href="https://api.whatsapp.com/send/?phone=%2B5584991951917&text=Olá. Gostaria de saber mais sobre os serviços da empresa" class="contatos-redes">
+          <i class="fab fa-whatsapp contatos-icones"></i>
+        </a>
+  
+        <a href="https://instagram.com/tw_techworld?igshid=YmMyMTA2M2Y" class="contatos-redes">
+          <i class="fab fa-instagram contatos-icones"></i>
+        </a>
+  
+        <a href="mailto:twtecnologia.marketing@gmail.com" class="contatos-redes">
+          <i class="fas fa-envelope contatos-icones"></i>
+        </a>
+      </div>
 
-    <a href="https://instagram.com/tw_techworld?igshid=YmMyMTA2M2Y" class="contatos-redes">
-      <i class="fab fa-instagram contatos-icones"></i>
-    </a>
+      <div class="rodape-menu">
+        <ul class="rodape-menu-lista">
+          <li class="rodape-menu-itens"><a href="#">Inicio</a></li>
+          <li class="rodape-menu-itens"><a href="#sobre">Sobre</a></li>
+          <li class="rodape-menu-itens"><a href="#servicos">Serviços</a></li>
+          <li class="rodape-menu-itens"><a href="#contatos">Contatos</a></li>
+        </ul>
+      </div>
 
-    <a href="mailto:twtecnologia.marketing@gmail.com" class="contatos-redes">
-      <i class="fas fa-envelope contatos-icones"></i>
-    </a>
-  </footer>
+      <div class="contatos">
+        <a href="#">@tw.techworld</a>
+        <a href="#">techworld@gmail.com</a>
+        <a href="#">(84) 99195-1917</a>
+      </div>
+
+      <p class="desenvolvedor">Site desenvolvido por Bruno Santos</p>
+    </footer>
   </main>
 
   <script src="js/main.js"></script>

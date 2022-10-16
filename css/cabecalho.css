@@ -4,18 +4,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: url("../img/logo-branca.jpg") center no-repeat;
-    background-size: cover;
+    /* background: url("../img/logo-branca.jpg") no-repeat center;
+    background-size: 100% auto; */
 }
 
 .logo {
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-    width: 100%;
+    width: 50%;
+    /* width: auto; */
     height: 100%;
+    position: absolute;
 }
 
 .barra-de-menu {
@@ -127,4 +132,10 @@
 .menu-itens:hover {
     transition: .3s;
     font-size: 1.5em;
+}
+
+
+/* ----- RESPONSIVIDADE ----- */
+@media screen and (min-width: 950px) {
+    
 }
