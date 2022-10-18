@@ -23,6 +23,10 @@
     position: absolute;
 }
 
+.cabecalho-logomarca-titulo {
+    display: none;
+}
+
 .barra-de-menu {
     width: 70px;
     height: 45px;
@@ -136,6 +140,66 @@
 
 
 /* ----- RESPONSIVIDADE ----- */
-@media screen and (min-width: 950px) {
-    
+@media screen and (min-width: 1500px) {
+    .cabecalho-logomarca {
+        width: auto;
+        height: 80px;
+    }
+    .logo {
+        justify-content: space-around;
+        text-decoration: none;
+    }
+
+    .logo img {
+        /* display: none; */
+        width: auto;
+        height: 100%;
+        position: relative;
+    }
+
+    .cabecalho-logomarca-titulo {
+        display: block;
+        color: var(--preto);
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: 1px 0px 5px var(--roxo);
+    }
+
+    .barra-de-menu {
+        display: none;
+    }
+
+    .cabecalho-menu {
+        overflow: auto;
+        opacity: 1;
+        width: 40%;
+        height: auto;
+        border: none;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .menu-principal {
+        width: 95%;
+        height: 80px;
+    }
+    .menu-lista {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        flex-direction: row;
+    }
+
+    .menu-itens img {
+        display: none;
+    }
+
+    .menu-itens {
+        font-size: 1.5em;
+    }
+
+    .menu-itens:hover {
+        font-size: 1.2em;
+    }
 }

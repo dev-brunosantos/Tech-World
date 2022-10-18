@@ -114,3 +114,20 @@
         font-size: 1.5em;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .cards {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cartoes {
+        overflow: auto;
+        max-width: 20rem;
+        height: 90%;
+    }
+}
