@@ -65,36 +65,32 @@
     .cards {
         /* border: solid red; */
         width: 100%;
-        height: 50%;
+        height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-rows: 350px 400px; */
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
             "marketing fotografia logomarcas"
             "marketing programacao programacao"
         ;
         justify-items: center;
-
     }
 
     .marketing {
         width: 90%;
-        height: 100%;
         grid-area: marketing;
     }
     .programacao {
         width: 90%;
-        height: 100%;
         grid-area: programacao;
     }
     .logomarcas {
         width: 90%;
-        height: 100%;
         grid-area: logomarcas;
     }
     .fotografia {
         width: 90%;
-        height: 100%;
         grid-area: fotografia;
     }
     .cartoes {
