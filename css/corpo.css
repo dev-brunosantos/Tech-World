@@ -116,7 +116,13 @@
 }
 
 /* ----- RESPONSIVIDADE ----- */
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 900px) {
+
+    .swiper {
+        width: 70%;
+        height: 80%;
+    }
+
     /* SEGUNDA TELA */
     .sobre {
         height: 50vh;
@@ -224,8 +230,8 @@
         height: 70vh;
     }
     .swiper {
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 80%;
     }
     
     .propaganda-slider .whatsapp {
